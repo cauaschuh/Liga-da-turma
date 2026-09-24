@@ -21,26 +21,29 @@ public class Menu
 
 
             // Cria o cabeçalho do menu.
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("╔════════════════════════════════════╗");
 
 
             // Nome do jogo.
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("║             SPACE RUN              ║");
+            Console.WriteLine("║             LIGA DA TURMA          ║");
 
 
             // Linha separadora do menu.
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("╠════════════════════════════════════╣");
 
 
             // Opções principais do jogo.
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("║ 1 - Iniciar jogo                   ║");
-            Console.WriteLine("║ 2 - Instruções                     ║");
-            Console.WriteLine("║ 3 - Último resultado               ║");
-            Console.WriteLine("║ 4 - Créditos                       ║");
+            Console.WriteLine("║ 1 - Cadastrar equipes              ║");
+            Console.WriteLine("║ 2 - Consultar equipes              ║");
+            Console.WriteLine("║ 3 - Registrar partida              ║");
+            Console.WriteLine("║ 4 - Consultar histórico            ║");
+            Console.WriteLine("║ 5 - Cadastrar festival             ║");
+            Console.WriteLine("║ 6 - Gerar convite                  ║");
+            Console.WriteLine("║ 7 - Gerar cartão de resultado      ║");
 
 
             // Opção sair em vermelho para destacar.
@@ -49,7 +52,7 @@ public class Menu
 
 
             // Fecha o quadro do menu.
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("╚════════════════════════════════════╝");
 
 
