@@ -1,4 +1,10 @@
-string equipe 1
-string equipe 2
-string equipe 3
-string equipe 4 
+public class Equipe;
+{
+
+string equipe1;
+string equipe2;
+string equipe3;
+string equipe4;
+}
+
+
