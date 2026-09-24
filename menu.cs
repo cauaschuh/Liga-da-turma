@@ -91,67 +91,6 @@ public class Menu
             switch (opcao)
             {
 
-                // Inicia uma nova partida.
-                case 1:
-
-                    // Cria uma nova partida do jogo.
-                    Jogo jogo = new Jogo();
-
-                    // Inicia o jogo.
-                    jogo.Iniciar();
-
-                    break;
-
-
-
-                // Mostra as instruções do jogo.
-                case 2:
-
-                    MostrarInstrucoes();
-
-                    break;
-
-
-
-                // Mostra o último resultado salvo.
-                case 3:
-
-                    MostrarResultado();
-
-                    break;
-
-                // Mostra os créditos do jogo.
-                case 4:
-
-                    MostrarCreditos();
-
-                    break;
-
-
-                // Encerra o programa.
-                case 0:
-
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Saindo...");
-
-                    Console.ResetColor();
-
-                    break;
-
-
-
-                // Caso seja digitada uma opção que não existe.
-                default:
-
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("\nOpção inválida!");
-
-                    Console.ResetColor();
-
-                    Console.WriteLine("Pressione ENTER para continuar...");
-                    Console.ReadKey(true);
-
-                    break;
             }
 
 
