@@ -90,6 +90,33 @@ public class Menu
             // Analisa qual opção foi escolhida.
             switch (opcao)
             {
+                case 1:
+                    Console.WriteLine ("Cadastrar equipes");
+                    break;
+
+                    case 2:
+                    Console.WriteLine ("Consultar equipes");
+                    break;
+
+                    case 3:
+                    Console.WriteLine ("Registrar Partidas");
+                    break;
+
+                    case 4:
+                    Console.WriteLine ("Consultar histórico");
+                    break;
+
+                    case 5:
+                    Console.WriteLine ("Cadastrar festival");
+                    break;
+
+                    case 6:
+                    Console.WriteLine ("Gerar convites");
+                    break;
+
+                    case 7:
+                    Console.WriteLine ("Gerar cartão de resultado");
+                    break;
 
             }
 
