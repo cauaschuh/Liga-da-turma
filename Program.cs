@@ -2,6 +2,7 @@
 
 int numEquipes = int.Parse(Console.ReadLine()!);
 
+<<<<<<< HEAD
 Equipe[] equipes = new Equipe[numEquipes];
 
 for (int i = 0; i < numEquipes; i++)
@@ -33,3 +34,6 @@ for (int i = 0; i < numEquipes; i++)
 
     } while (repetido);
 }
+=======
+equipe[string]  = new equipe [4];
+>>>>>>> 635eff705547c8626a0e97b774503b7d2e91e68c
