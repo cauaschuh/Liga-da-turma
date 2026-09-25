@@ -39,7 +39,7 @@ public class Menu
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("║ 1 - Cadastrar equipes              ║");
             Console.WriteLine("║ 2 - Consultar equipes              ║");
-            Console.WriteLine("║ 3 - Registrar partida              ║");
+            Console.WriteLine("║ 3 - Registrar partidas             ║ ");
             Console.WriteLine("║ 4 - Consultar histórico            ║");
             Console.WriteLine("║ 5 - Cadastrar festival             ║");
             Console.WriteLine("║ 6 - Gerar convite                  ║");
@@ -111,11 +111,15 @@ public class Menu
                     break;
 
                     case 6:
-                    Console.WriteLine ("Gerar convites");
+                    Console.WriteLine ("Gerar convite");
                     break;
 
                     case 7:
                     Console.WriteLine ("Gerar cartão de resultado");
+                    break;
+
+                    case 0:
+                    Console.WriteLine ("Saindo...");
                     break;
 
             }
