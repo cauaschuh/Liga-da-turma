@@ -124,6 +124,6 @@ public class Menu
 
             }
 
-        }
+        }while (opcao != 0);
     }
 }
