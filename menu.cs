@@ -7,7 +7,7 @@ public class Menu
 {
 
     // Método responsável por exibir o menu e controlar a navegação.
-    public void Exibir()
+    public int Exibir()
     {
         // Guarda a opção escolhida pelo jogador.
         int opcao;
@@ -125,10 +125,9 @@ public class Menu
             }
 
 
-        }
-        // Enquanto a opção escolhida for diferente de 0,
-        // o menu continua aparecendo.
-        while (opcao != 0);
-    }
+        } while (false);
+        
+        
+    }return opcao;
 
 }
