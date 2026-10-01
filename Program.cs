@@ -33,6 +33,4 @@ for (int i = 0; i < numEquipes; i++)
         }
 
     } while (repetido);
-}
-
-equipe[string]  = new equipe [4];
+}        
