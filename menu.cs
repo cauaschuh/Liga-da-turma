@@ -126,6 +126,7 @@ public class Menu
 
 
         }
+        
         // Enquanto a opção escolhida for diferente de 0,
         // o menu continua aparecendo.
         while (opcao != 0);
