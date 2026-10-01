@@ -1,1 +1,8 @@
-//apaguei pq o codigo estava todo errado
+    public class Equipe
+    {
+
+    public  string equipe;
+
+    }
+
+

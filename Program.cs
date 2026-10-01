@@ -1,4 +1,7 @@
-﻿Console.WriteLine("Digite o número de equipes: ");
+﻿Menu menu = new Menu();
+menu.Exibir();
+
+Console.WriteLine("Digite o número de equipes: ");
 
 int numEquipes = int.Parse(Console.ReadLine()!);
 
