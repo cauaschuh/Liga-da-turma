@@ -1,5 +1,10 @@
 ﻿Menu menu = new Menu();
-menu.Exibir();
+int opcao = menu.Exibir();
+
+if (opcao == 0)
+{
+    return;
+}
 
 Console.WriteLine("Digite o número de equipes: ");
 
