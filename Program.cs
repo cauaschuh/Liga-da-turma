@@ -1,28 +1,31 @@
 ﻿Menu menu = new Menu();
-int opcao = menu.Exibir();
+List<Equipe> equipes = new List<Equipe>();
+
+int opcao;
+do
+{
+    opcao = menu.Exibir();
 
 if (opcao == 0)
 {
     return;
 }
 
-Console.WriteLine("Digite o número de equipes: ");
-
-string resposta = "s";
-
-while (resposta == "s")
+if (opcao == 1)
 {
-    Console.WriteLine("Registrar equipe? (s/n)");
-    resposta = Console.ReadLine()!;
 
-    if (resposta == "s")
-    {
-        Console.WriteLine("Digite o nome da equipe:");
-        string nomeEquipe = Console.ReadLine()!;
+    Console.WriteLine("Digite o nome da equipe:");
+    string nomeEquipe = Console.ReadLine()!;
 
-        Equipe novaEquipe = new Equipe();
-        novaEquipe.equipe = nomeEquipe;
+    Equipe novaEquipe = new Equipe();
+    novaEquipe.equipe = nomeEquipe;
 
-        equipes.Add(novaEquipe);
-    }
+    equipes.Add(novaEquipe);
+
+    Console.WriteLine("Equipe cadastrada com sucesso!");
+    Console.ReadLine();
 }
+
+} while (opcao != 0);
+
+

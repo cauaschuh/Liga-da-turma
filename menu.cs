@@ -126,7 +126,6 @@ public class Menu
 
 
             } while (false);
-
         return opcao;
     }
 }
