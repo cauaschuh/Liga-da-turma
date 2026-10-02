@@ -36,7 +36,7 @@ public class Menu
 
 
             // Opções principais do jogo.
-            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("║ 1 - Cadastrar equipes              ║");
             Console.WriteLine("║ 2 - Consultar equipes              ║");
             Console.WriteLine("║ 3 - Registrar partidas             ║ ");
