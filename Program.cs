@@ -8,37 +8,21 @@ if (opcao == 0)
 
 Console.WriteLine("Digite o número de equipes: ");
 
-int numEquipes = int.Parse(Console.ReadLine()!);
+string resposta = "s";
 
-
-Equipe[] equipes = new Equipe[numEquipes];
-
-for (int i = 0; i < numEquipes; i++)
+while (resposta == "s")
 {
-    bool repetido;
+    Console.WriteLine("Registrar equipe? (s/n)");
+    resposta = Console.ReadLine()!;
 
-    do
+    if (resposta == "s")
     {
-        repetido = false;
+        Console.WriteLine("Digite o nome da equipe:");
+        string nomeEquipe = Console.ReadLine()!;
 
-        Console.WriteLine($"Digite o nome da equipe {i + 1}: ");
-        string nomeNovo = Console.ReadLine()!;
+        Equipe novaEquipe = new Equipe();
+        novaEquipe.equipe = nomeEquipe;
 
-        for (int j = 0; j < i; j++)
-        {
-            if (nomeNovo == equipes[j].equipe)
-            {
-                repetido = true;
-                Console.WriteLine("Essa equipe já foi cadastrada!");
-                break;
-            }
-        }
-
-        if (!repetido)
-        {
-            equipes[i] = new Equipe();
-            equipes[i].equipe = nomeNovo;
-        }
-
-    } while (repetido);
-}        
+        equipes.Add(novaEquipe);
+    }
+}
