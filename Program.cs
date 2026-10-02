@@ -2,6 +2,11 @@ Menu menu = new Menu();
 List<Equipe> equipes = new List<Equipe>();
 List<string> historico = new List<string>();
 
+string nomeFestival = "";
+string localFestival = "";
+string dataFestival = "";
+string horarioFestival = "";
+
 int opcao;
 do
 {
@@ -67,6 +72,24 @@ if (opcao == 4)
         Console.WriteLine(partida);
     }
 
+    Console.ReadLine();
+}
+
+if (opcao == 5)
+{
+    Console.WriteLine("Digite o nome do festival:");
+    nomeFestival = Console.ReadLine()!;
+
+    Console.WriteLine("Digite o local do festival:");
+    localFestival = Console.ReadLine()!;
+
+    Console.WriteLine("Digite a data do festival:");
+    dataFestival = Console.ReadLine()!;
+
+    Console.WriteLine("Digite o horário do festival:");
+    horarioFestival = Console.ReadLine()!;
+
+    Console.WriteLine("Festival cadastrado com sucesso!");
     Console.ReadLine();
 }
 
